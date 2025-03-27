@@ -1,4 +1,4 @@
-// Using validator for validation
+// Using validator for validation (Possible Solution for Rust)
 // Rust Doc: https://docs.rs/validator/latest/validator/ || Github Repo: https://github.com/Keats/validator
 
 use actix_web::{post, web, App, HttpResponse, HttpServer};
