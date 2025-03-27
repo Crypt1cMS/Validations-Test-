@@ -1,4 +1,4 @@
-// Using serde_valid for validation
+// Using serde_valid for validation (Not as good/flexible as validator)
 // https://docs.rs/serde_valid/latest/serde_valid/
 
 use actix_web::{post, web, App, HttpResponse, HttpServer};
