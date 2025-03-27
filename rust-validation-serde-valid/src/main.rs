@@ -1,3 +1,6 @@
+// Using serde_valid for validation
+// https://docs.rs/serde_valid/latest/serde_valid/
+
 use actix_web::{post, web, App, HttpResponse, HttpServer};
 use serde_valid::Validate;
 use serde::{Deserialize, Serialize};
