@@ -1,3 +1,6 @@
+// Using Zod for validation (Not the main focus of this repo)
+// Zod Doc: https://zod.dev/ || Github Repo: https://github.com/colinhacks/zod
+
 import { z } from "zod";
 
 const orderSchema = z.object({

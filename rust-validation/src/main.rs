@@ -1,3 +1,6 @@
+// Using validator for validation
+// Rust Doc: https://docs.rs/validator/latest/validator/ || Github Repo: https://github.com/Keats/validator
+
 use actix_web::{post, web, App, HttpResponse, HttpServer};
 use serde::{Serialize, Deserialize};
 use validator::Validate;
